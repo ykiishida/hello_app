@@ -4,4 +4,8 @@ class ApplicationController < ActionController::Base
   def hello
       render html:"こんにちは、石田だよ"
   end
+  
+  def good_bye
+      render html:"さようなら、あばよ"
+  end
 end
